@@ -6,7 +6,6 @@ phases:
       java: corretto11
 
   build:
-    run-as: Linux-user-name
     commands:
       - mvn test
       - mvn install
